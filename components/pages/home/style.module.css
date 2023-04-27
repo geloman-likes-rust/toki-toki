@@ -22,6 +22,15 @@
   border-radius: 5px;
   background: #fff;
   overflow: hidden;
+  transition: box-shadow 200ms ease;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card:hover .category {
+  text-decoration: underline 2px;
 }
 
 .card .image {
